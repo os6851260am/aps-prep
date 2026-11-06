@@ -63,5 +63,9 @@ new node compare the link quality and choose the best one as its parent
 3. receiver node: communicate with its parent spasmodically via polling
 
 ## ZigBee Laboratory
+### 1. P2P Network Establishment
+We took the experiment that 1 coordinator and 1 enddevice establishing network. 
+1. Set the PAN_ID of the coordinator
+3. Modify the "Coordinator.c" and "Enddevice.c": activate the LED as network established (via network state judgement), end device send a message and blink the LED after coordinator receiving and validating.
 
-
+### 2. Mesh Topology Experiment
