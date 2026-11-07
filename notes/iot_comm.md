@@ -3,18 +3,17 @@
 2. ZigBee Theory & Laboratory
 3. Other Protocols
 
-## Communication Protocols (WPAN & LPWAN)
-
-|Protoco|Frequency|Speed|Distance|Power|Feature|
-|---|---|---|---|---|---|
-|ZigBee|2.4, 868, 915|low|short|low|low power, low latenct, high network capacity|
-|Bluetooth|2.45 ISM|1Mb/s|
-|RFID|
-|NB-IoT|
-
-
-
-
+## Communication Protocols (WPAN & LPWAN)|
+1. ZigBee  
+    Short-range, low power, no fee
+2. Wi-Fi  
+    High Throughput, High power, internet access
+3. BLE  
+    Low Power, short-range, P2P
+4. NB-IoT  
+    Long-range, fees, Low power  
+5. RFID  
+    Passive (Battery-free), Identity Tag
 ## ZigBee Theory
 ### Basic Theory
 1. IEEE 802.15.4
@@ -68,4 +67,8 @@ We took the experiment that 1 coordinator and 1 enddevice establishing network.
 1. Set the PAN_ID of the coordinator
 3. Modify the "Coordinator.c" and "Enddevice.c": activate the LED as network established (via network state judgement), end device send a message and blink the LED after coordinator receiving and validating.
 
-### 2. Mesh Topology Experiment
+### 2. Topology Experiment
+1. We used 1 ZC, 2 ZRs and 1 ZED.
+2. We established the network b/t the 4 devices and attested the topology via ZC serial port output.
+3. Modify the HAL function: when receive the "get" through serial port, look up the association table and neighbors table, print the address and parent node's address of each node.
+4. According to the content printed, we could attest the topologic architecture.
