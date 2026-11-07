@@ -5,3 +5,5 @@
 
 ### Nov. 7th
 1. Complete the learn of IoT Communication
+2. Finish the workbuddy project discussion
+3. Plan the Embedded GUI learning process

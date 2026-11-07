@@ -8,4 +8,4 @@
 - [x] ZigBee Laboratory
 - [x] Complete IoT Communication
 - [x] Draft writting
-- [ ] 
+- [x] Plan Embedded GUI
