@@ -4,6 +4,11 @@
 3. built my git repository of learning.
 
 ### Nov. 7th
-1. Complete the learn of IoT Communication
+1. Complete the learn of IoT Communication.
 2. Finish the workbuddy project discussion
 3. Plan the Embedded GUI learning process
+
+### Nov. 8th
+1. Learn the Hardware & Software (ARM MCU & LVGL) cooperation.
+2. Learn LVGL Rendering
+3. Learn LVGL Core Engine, Event-Driven, Widgets
