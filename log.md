@@ -12,3 +12,7 @@
 1. Learn the Hardware & Software (ARM MCU & LVGL) cooperation.
 2. Learn LVGL Rendering
 3. Learn LVGL Core Engine, Event-Driven, Widgets
+
+### Nov. 9th
+1. Review LVGL
+2. Complete the LVGL draft

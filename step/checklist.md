@@ -15,6 +15,7 @@
 - [x] 
 
 ### 11.9
-- [] Finish Embedded GUI
-- [ ] Front-End
+- [x] Finish Embedded GUI
+- [x] Write the Embedded GUI draft
+- [x] 
 
