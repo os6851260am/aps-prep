@@ -16,3 +16,8 @@
 ### Nov. 9th
 1. Review LVGL
 2. Complete the LVGL draft
+
+### Nov. 10th
+1. Plan Web Front-End Development
+2. Learn HTML
+3. Learn CSS (Not done: Flexbox Layout)

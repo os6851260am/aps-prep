@@ -19,3 +19,14 @@
 - [x] Write the Embedded GUI draft
 - [x] 
 
+### 11.10
+- [x] Plan Front-End
+- [x] Learn HTML
+- [x] Learn CSS
+
+### 11.11
+- [] Finish HTML & CSS
+- [ ] Learn JavaScript
+- [ ] Finish Front-End
+- [ ] Write Draft
+
