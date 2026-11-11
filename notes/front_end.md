@@ -458,3 +458,46 @@
 | **事件代理 / 委托** | Event Delegation | Ereignisdelegation | 父级代管子级事件以节约内存 |
 | **浏览器对象模型** | BOM (Browser Object Model) | BOM (Browser-Objekt-Modell) | 浏览器窗口交互对象集合（`window`） |
 | **定时器** | Timer | Timer / Zeitgeber | `setTimeout`（单次延时）与 `setInterval`（循环） |
+
+
+
+
+
+
+## 4. Laboratory / Practical Tasks
+
+In our lab sessions, we used **VSCode**  to complete two practical projects:
+
+### Task 1: Responsive Navigation Bar and Box Model Layout
+We built a responsive horizontal navigation bar:
+1. **Structure**: Wrapped hyperlinked navigation items inside a semantic `<nav>` tag (`<a href="#">Home</a>`).
+2. **Layout & Box Model**:
+   - Hyperlinks `<a>` are inline elements by default and do not accept width or height.
+   - We applied `display: flex` with `justify-content: center` to the `<nav>` container (or `display: inline-block` on `<a>`), giving the links explicit dimensions and clickable padding.
+   - Used `text-decoration: none` to remove default underlines and added `padding: 12px 20px` to enlarge the clickable touch target.
+   - Applied the `:hover` pseudo-class (`.nav a:hover { background-color: #007bff; }`) to produce a smooth mouseover highlight effect.
+3. **Result**: The menu was centered horizontally, visually clean, and highlighted interactively on mouse hover.
+
+### Task 2: Simulated Client-Side Customer Service Chatbox
+We developed an interactive customer service chatbox without any backend:
+1. **Workflow**:
+   - An `<input type="text">` for user input, a `<button>` ("Send"), and an empty `<ul>` for message bubbles.
+   - When the user clicks "Send", the click event handler reads `input.value`.
+2. **DOM Manipulation**:
+   - Dynamically created a new `<li>` element using `document.createElement('li')`.
+   - Set `userLi.innerHTML = input.value` and aligned it to the right (`userLi.style.float = 'right'`).
+   - Mounted the element into the message list using `chatList.appendChild(userLi)`, then cleared the input field.
+3. **Asynchronous Simulation via Timer**:
+   - Called `setTimeout()` to simulate a customer service bot reply after a 2-second delay:
+   ```javascript
+   setTimeout(() => {
+       const botLi = document.createElement('li');
+       botLi.innerHTML = 'Bot: Hello, how can I help you?';
+       botLi.style.float = 'left';
+       chatList.appendChild(botLi);
+   }, 2000);
+   ```
+4. **Observation & Verification**:
+   - When clicking Send, the user's message immediately appeared on the right.
+   - Two seconds later, the automated robot message automatically appeared on the left without any page reload, verifying DOM CRUD operations and asynchronous browser timers.
+

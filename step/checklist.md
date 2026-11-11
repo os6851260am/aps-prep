@@ -25,8 +25,9 @@
 - [x] Learn CSS
 
 ### 11.11
-- [] Finish HTML & CSS
-- [ ] Learn JavaScript
-- [ ] Finish Front-End
-- [ ] Write Draft
+- [x] Finish HTML & CSS
+- [x] Learn JavaScript
+- [x] Finish Front-End
+- [x] Write Draft
+- [ ] Prepare Mr.Li Interview
 

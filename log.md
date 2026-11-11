@@ -21,3 +21,9 @@
 1. Plan Web Front-End Development
 2. Learn HTML
 3. Learn CSS (Not done: Flexbox Layout)
+
+### Nov. 11th
+1. Learn JavaScript
+2. Finish Web Frontend Development
+3. Write Web Front-End Draft
+4. Plan Industrial Internet Identity

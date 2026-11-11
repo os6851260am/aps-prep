@@ -13,7 +13,6 @@ These protocols have different features:
 
 ### Fundamental
 ZigBee is based on the IEEE 802.15.4 standard. There're 4 layers: App. layer, Network layer, Data link layer and Physical layer. 
-
 ### Device
 ZigBee devices functionally divided to 2 categories: FFD (Full-Function Device) and RFD (Reduced-Function Device) and logically divided to 3 categories: ZC (Coordinator), ZR (Router) and ZED (End Device). The topologic architecture includes multiple devices.
 
