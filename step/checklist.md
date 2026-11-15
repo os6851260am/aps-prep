@@ -31,3 +31,13 @@
 - [x] Write Draft
 - [ ] Prepare Mr.Li Interview
 
+
+### A few days
+
+Review:
+- [] Computer Organizing
+- [ ] Data Structure
+- [ ] Computer Networks
+
+
+

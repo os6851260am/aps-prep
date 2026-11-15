@@ -17,7 +17,6 @@
 - [x] Sensor Principles
 - [x] EDA (Laboratory)
 
-
 ## Fundamentals
 - [] Intro. to IoT
 - [x] Embedded C Programming
@@ -35,3 +34,20 @@
 - [x] Linear Algebra
 - [ ] Probability Theory & Statistics
 - [ ] Discrete Math.
+
+
+## Laboratories:
+- [] ARM Architrcture
+- [ ] IoT Communication
+- [ ] EDA
+- [ ] Sensor Principle
+
+- [] C
+- [ ] Data Structure
+- [ ] Java
+- [ ] Python
+- [ ] Machine Learning
+- [ ] Data Visualization
+- [ ] MCU
+- [ ] Front-End
+- [ ] Embedde GUI
